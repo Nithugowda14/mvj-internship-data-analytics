@@ -6,6 +6,7 @@ This is the shared GitHub repository for our two-person Data Analytics internshi
 
 - Nithya
 - Subham Rout
+- Pranav kondiram mali
 
 **Track:** Data Analytics
 **Internship dates:** 17 October to 17 November 2026
