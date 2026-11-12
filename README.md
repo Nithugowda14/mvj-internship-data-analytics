@@ -1,26 +1,28 @@
 # MVJ Data Analytics Internship
 
-This is the shared GitHub repository for our two-person Data Analytics internship team. It contains our three projects, capstone work, timesheets, and report drafts.
+This repository contains our Data Analytics internship projects, team timesheets, and report drafts for MVJ Degree College.
 
 ## Team
 
 - Nithya
 - Subham Rout
-- Pranav kondiram mali
+- Pranav Kondiram Mali
 
-**Track:** Data Analytics
+**Track:** Data Analytics  
 **Internship dates:** 17 October to 17 November 2026
+
+Each student records their own work in an individual timesheet and commits their contributions using their own GitHub account.
 
 ## Projects
 
-| Project   | Topic                               | Tools / dataset                     | Status      |
-| --------- | ----------------------------------- | ----------------------------------- | ----------- |
-| Project 1 | Online Retail II KPI analysis       | SQL, Excel, Python and dashboard    | Completed   |
-| Project 2 | Customer segmentation and retention | Python; Maven Fuzzy Factory dataset | Completed   |
-| Project 3 | Predictive analysis and dashboards  | none                                | In progress |
-| Capstone  | Team project                        | To be chosen                        | none        |
+| Project | Topic | Tools and dataset | Status |
+|---|---|---|---|
+| Project 1 | Online Retail II KPI Analysis | SQL, Excel, Python; Online Retail II dataset | Completed |
+| Project 2 | Customer Segmentation and Retention | Python; Maven Fuzzy Factory dataset | Completed |
+| Project 3 | Bank Customer Churn Analysis | Python, pandas, scikit-learn, Google Colab; Power BI and Tableau planned | In progress |
+| Capstone | Team project | To be chosen | Not started |
 
-Each project has its own folder and README with its question, data source, methods, findings, limitations, and AI-use notes.
+Each project folder contains its own README with the project question, data source, methods, findings, limitations, and AI-use notes.
 
 ## Repository structure
 
@@ -28,20 +30,37 @@ Each project has its own folder and README with its question, data source, metho
 README.md
 project1/
   README.md
+  ...
 project2/
   README.md
+  ...
 project3/
   README.md
+  data/
+    README.md
+  ...
 capstone/
   README.md
   charter.md
 timesheet/
   Nithya.csv
   Subham_Rout.csv
+  Pranav_Kondiram_Mali.csv
 report/
+  README.md
   report drafts
 ```
 
-Each student maintains an individual timesheet in the `timesheet/` folder. We record our own work and commit our contributions using our own GitHub accounts.
+Add files such as notebooks, SQL queries, dashboard instructions, and presentation materials to the relevant project folder.
 
-Large raw datasets are linked to their source instead of being uploaded to the repository.
+## Data and privacy
+
+Large raw datasets are linked to their original sources instead of being uploaded to this repository. Do not commit private information, passwords, access keys, or data that you do not have permission to share. Keep a small `README.md` in each data folder to describe the source and explain how to obtain the files.
+
+## Timesheets
+
+The `timesheet/` folder contains one timesheet per team member. Each person is responsible for recording their own dates, hours, work completed, and learning.
+
+## Reports
+
+The `report/` folder is for report drafts and other materials prepared for internship submission. Final versions should identify their project and include relevant sources and limitations.
