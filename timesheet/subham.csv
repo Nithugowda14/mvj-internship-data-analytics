@@ -75,80 +75,98 @@ different customer behaviors.
 
 **Date:** 28 October 2026  
 **Hours:** 5  
-**What I worked on:** I reviewed the bank customer churn project files, including the customer and account information, messy workbook, clean reference CSV, and data dictionary. I identified what each file contains and how the customer and account records can be combined for analysis.  
+**What I worked on:** I reviewed the bank customer churn project files, including the customer and account information, messy workbook, clean
+reference CSV, and data dictionary. I identified what each file contains and how the customer and account records can be combined for analysis.  
 **What I learned:** I learned how the project files relate to one another and why understanding the dataset is the first step in an analysis.
 
 **Date:** 29 October 2026  
 **Hours:** 5  
-**What I worked on:** I loaded the project files into Google Colab and used pandas to inspect the row counts, column names, data types, and sample records. I checked that the files contained the fields needed for the churn project.  
+**What I worked on:** I loaded the project files into Google Colab and used pandas to inspect the row counts, column names, data types, and sample records.
+I checked that the files contained the fields needed for the churn project.  
 **What I learned:** I learned how to use pandas to inspect a dataset before cleaning or analyzing it.
 
 **Date:** 30 October 2026  
 **Hours:** 5  
-**What I worked on:** I checked the customer and account data for missing values, duplicate rows, repeated customer IDs, and inconsistent geography names. I noted the data-quality issues to address during cleaning.  
+**What I worked on:** I checked the customer and account data for missing values, duplicate rows, repeated customer IDs, and inconsistent geography names. 
+I noted the data-quality issues to address during cleaning.  
 **What I learned:** I learned how missing values, duplicate records, and inconsistent category labels can affect analysis results.
 
 **Date:** 31 October 2026  
 **Hours:** 5  
-**What I worked on:** I removed exact duplicate rows from the customer and account tables and checked that each table had one record per customer ID. I reviewed the row counts and repeated-ID checks after cleaning.  
+**What I worked on:** I removed exact duplicate rows from the customer and account tables and checked that each table had one record per customer ID.
+I reviewed the row counts and repeated-ID checks after cleaning.  
 **What I learned:** I learned the difference between duplicate rows and repeated customer IDs, and why IDs should be unique before combining tables.
 
 **Date:** 1 November 2026  
 **Hours:** 5  
-**What I worked on:** I joined the cleaned customer and account tables using `CustomerId`. I checked the join results and confirmed that all 10,000 customers matched between the tables and that the tenure values agreed.  
+**What I worked on:** I joined the cleaned customer and account tables using `CustomerId`. I checked the join results and confirmed that all 10,000
+customers matched between the tables and that the tenure values agreed.  
 **What I learned:** I learned how to join related datasets using a shared ID and verify that the join did not leave unmatched records.
 
 **Date:** 2 November 2026  
 **Hours:** 5  
-**What I worked on:** I standardized the geography labels by combining `FRA` and `French` with `France`. I also removed the euro symbol from salary and balance values and converted those columns from text to numbers.  
+**What I worked on:** I standardized the geography labels by combining `FRA` and `French` with `France`. I also removed the euro symbol from salary and
+balance values and converted those columns from text to numbers.  
 **What I learned:** I learned why category labels must be consistent and how to prepare text-formatted currency values for calculations.
 
 **Date:** 3 November 2026  
 **Hours:** 5  
-**What I worked on:** I converted the `HasCrCard` and `IsActiveMember` Yes/No fields into numeric values. I checked missing ages, surnames, and salary entries by comparing the messy workbook with the clean reference data.  
+**What I worked on:** I converted the `HasCrCard` and `IsActiveMember` Yes/No fields into numeric values. I checked missing ages, surnames, and salary 
+entries by comparing the messy workbook with the clean reference data.  
 **What I learned:** I learned how to prepare Yes/No fields for analysis and use reference data to check missing or unusual values.
 
 **Date:** 4 November 2026  
 **Hours:** 5  
-**What I worked on:** I corrected inaccurate credit-card values and three placeholder salary values using the clean reference CSV and matching customer IDs. I then compared the cleaned data with the reference to verify the corrections.  
+**What I worked on:** I corrected inaccurate credit-card values and three placeholder salary values using the clean reference CSV and matching customer IDs.
+I then compared the cleaned data with the reference to verify the corrections.  
 **What I learned:** I learned that converting a field’s format is not enough when its values are wrong; data should also be validated against a reliable reference.
 
 **Date:** 5 November 2026  
 **Hours:** 5  
-**What I worked on:** I completed the data-cleaning checks and calculated total customers, churned customers, retained customers, and the overall churn rate. The results were 10,000 customers, 2,037 churned, 7,963 retained, and a 20.37% churn rate.  
+**What I worked on:** I completed the data-cleaning checks and calculated total customers, churned customers, retained customers, and the overall churn rate. 
+The results were 10,000 customers, 2,037 churned, 7,963 retained, and a 20.37% churn rate.  
 **What I learned:** I learned how to calculate basic churn KPIs and use totals to check whether analysis results are consistent.
 
 **Date:** 6 November 2026  
 **Hours:** 5  
-**What I worked on:** I grouped customers by geography and calculated customer counts, churned-customer counts, and churn rates for France, Germany, and Spain. I compared the results to identify where churn was highest.  
+**What I worked on:** I grouped customers by geography and calculated customer counts, churned-customer counts, and churn rates for France, Germany, and Spain.
+I compared the results to identify where churn was highest.  
 **What I learned:** I learned how to compare churn across locations and explain the difference between a customer count and a churn rate.
 
 **Date:** 7 November 2026  
 **Hours:** 5  
-**What I worked on:** I created age groups and calculated churn rates for customers aged 18–29, 30–39, 40–49, 50–59, and 60 or older. I compared the churn pattern across these age ranges.  
+**What I worked on:** I created age groups and calculated churn rates for customers aged 18–29, 30–39, 40–49, 50–59, and 60 or older. 
+I compared the churn pattern across these age ranges.  
 **What I learned:** I learned how grouping ages can make customer patterns easier to compare and communicate.
 
 **Date:** 8 November 2026  
 **Hours:** 5  
-**What I worked on:** I analyzed churn by number of bank products and active-member status. I checked both the customer counts and churn rates, paying particular attention to the smaller groups with three or four products.  
+**What I worked on:** I analyzed churn by number of bank products and active-member status. I checked both the customer counts and churn rates,
+paying particular attention to the smaller groups with three or four products.  
 **What I learned:** I learned why it is important to show the number of customers along with a percentage, especially when a group is small.
 
 **Date:** 9 November 2026  
 **Hours:** 5  
-**What I worked on:** I selected the fields for the churn prediction models and divided the data into training and test sets using an 80/20 split. I kept the churn proportion similar in each set and prepared the predictor fields.  
+**What I worked on:** I selected the fields for the churn prediction models and divided the data into training and test sets using an 80/20 split.
+I kept the churn proportion similar in each set and prepared the predictor fields.  
 **What I learned:** I learned why model training and evaluation use separate data and why the test set should be held back to check model predictions.
 
 **Date:** 10 November 2026  
 **Hours:** 5  
-**What I worked on:** I trained logistic regression and decision tree models to predict churn. I evaluated both models on the test set using accuracy, precision, recall, and F1 score, then compared their performance.  
-**What I learned:** I learned that accuracy alone does not show how well a model finds churners. Recall measures how many actual churners the model finds, while precision measures how many customers flagged by the model actually churned.
+**What I worked on:** I trained logistic regression and decision tree models to predict churn. I evaluated both models on the test set using accuracy,
+precision, recall, and F1 score, then compared their performance.  
+**What I learned:** I learned that accuracy alone does not show how well a model finds churners. Recall measures how many actual churners the model finds, 
+while precision measures how many customers flagged by the model actually churned.
 
 **Date:** 11 November 2026  
 **Hours:** 5  
-**What I worked on:** I reviewed the decision tree’s feature importance and grouped the test-set customers into below-average, moderate, and high predicted-risk bands. I compared predicted risk with actual churn rates and recorded that these results represent only the 2,000-customer test set.  
+**What I worked on:** I reviewed the decision tree’s feature importance and grouped the test-set customers into below-average, moderate, and high predicted-risk bands.
+I compared predicted risk with actual churn rates and recorded that these results represent only the 2,000-customer test set.  
 **What I learned:** I learned how risk bands summarize predictions and why results need to state which group of customers they describe.
 
 **Date:** 12 November 2026  
 **Hours:** 5  
-**What I worked on:** I prepared a hypothetical retention-offer scenario for high-risk test customers using stated cost and retention-uplift assumptions. I organized the project’s cleaning steps, findings, model results, dashboard plan, and limitations for the README and Power BI work.  
-**What I learned:** I learned to distinguish hypothetical estimates from measured campaign results. The dataset does not show whether an offer would retain customers or increase profit because actual campaign outcomes and offer costs were not provided.
+**What I worked on:** I prepared a hypothetical retention-offer scenario for high-risk test customers using stated cost and retention-uplift assumptions.
+I organized the project’s cleaning steps, findings, model results, dashboard plan, and limitations for the README and Power BI work.  
+**What I learned:** I learned to distinguish hypothetical estimates from measured campaign results. The dataset does not show whether an offer would retain
+customers or increase profit because actual campaign outcomes and offer costs were not provided.
