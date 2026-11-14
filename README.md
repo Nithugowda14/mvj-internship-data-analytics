@@ -44,7 +44,7 @@ Each team member maintains an individual timesheet and records their contributio
 | Project | Project Title                             | Technologies                               | Status    |
 | ------- | ----------------------------------------- | ------------------------------------------ | --------- |
 | 01      | Online Retail II KPI Analysis             | SQL, Excel, Python                         | Completed |
-| 02      | Customer Segmentation and Retention       | Python, Pandas                             | Completed |
+| 02      | Customer Segmentation and Retention       | Python, Pandas,Google Colab                             | Completed |
 | 03      | Bank Customer Churn Analysis              | Python, Pandas, Scikit-learn, Google Colab | Completed |
 | 04      | capstone-Mall Performance                 | Excel, Power BI, GitHub                    | Completed |
 
